@@ -1,0 +1,22 @@
+.page-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hobby-card {
+  background: var(--card-color);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 1px 10px var(--shadow);
+}
+
+.hobby-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}

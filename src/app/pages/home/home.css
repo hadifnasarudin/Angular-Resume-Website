@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  gap: 40px;
+  padding-top: 30px;
+}
+
+/* PROFILE CARD */
+.card {
+  width: 320px;
+  background: var(--card-color);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 12px var(--shadow);
+}
+
+.profile-img {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.name {
+  margin: 10px 0 5px;
+  font-size: 22px;
+}
+
+.title {
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+/* RIGHT CONTENT */
+.right-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.top-cards {
+  display: flex;
+  gap: 25px;
+}
+
+.about-card,
+.education-card {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  min-height: 180px;
+}
+
+.skills-card {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  min-height: 200px;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
