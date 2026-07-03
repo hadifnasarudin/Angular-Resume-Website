@@ -1,52 +1,282 @@
-<div class="container main">
-
-  <!-- LEFT: Profile Card -->
-  <div class="card">
-    <img src="assets/gmbrformal.png" class="profile-img" alt="My Photo">
-    <h1 class="name">Muhammad Hadif bin Nasarudin</h1>
-    <p class="title">Bachelor of Science (Information Technology)</p>
-    <p class="uni">Universiti Utara Malaysia</p>
-
-    <p><button class="btn" routerLink="contact">Contact Me</button></p>
-  </div>
-
-  <!-- RIGHT: About Section -->
-  <section class="content">
-    <div class="top-cards">
-    <div class="section-wrapper">
-      <h2 class="about-section-title">About Me</h2>
-        <div class="card about-card">
-        <p>
-          Hi! I’m Hadif — an IT student who enjoys building clean and
-          beautiful digital experiences. I love web development, Flutter,
-          and exploring new tech that can solve real problems.
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Software Engineering / Web Development Portfolio</p>
+        <h1>Muhammad Hadif bin Nasarudin</h1>
+        <p class="hero-lead">
+          Bachelor of Science (Information Technology) student at Universiti Utara Malaysia,
+          focused on building clean, responsive, and practical digital experiences.
         </p>
+
+        <div class="hero-actions">
+          <a class="btn" routerLink="/contact">Contact Me</a>
+          <a class="btn secondary" href="#projects">View Projects</a>
+        </div>
+
+        <div class="tech">
+          <p class="tech-title">Tech Stack</p>
+
+          <div class="tech-marquee">
+            <div class="tech-track">
+
+              <div class="tech-item">
+                <img src="assets/icons/angular.svg" alt="Angular">
+                <span>Angular</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/flutter.svg" alt="Flutter">
+                <span>Flutter</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/springboot.svg" alt="Spring Boot">
+                <span>Spring Boot</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/mysql.svg" alt="MySQL">
+                <span>MySQL</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/laravel.svg" alt="Laravel">
+                <span>Laravel</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/react.svg" alt="React">
+                <span>React</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/cypress.svg" alt="Cypress">
+                <span>Cypress</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/github.svg" alt="GitHub">
+                <span>GitHub</span>
+              </div>
+
+              <!-- Duplicate untuk infinite scroll -->
+              <div class="tech-item">
+                <img src="assets/icons/angular.svg" alt="Angular">
+                <span>Angular</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/flutter.svg" alt="Flutter">
+                <span>Flutter</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/springboot.svg" alt="Spring Boot">
+                <span>Spring Boot</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/mysql.svg" alt="MySQL">
+                <span>MySQL</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/laravel.svg" alt="Laravel">
+                <span>Laravel</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/react.svg" alt="React">
+                <span>React</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/cypress.svg" alt="Cypress">
+                <span>Cypress</span>
+              </div>
+
+              <div class="tech-item">
+                <img src="assets/icons/github.svg" alt="GitHub">
+                <span>GitHub</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
 
-      <h2 class="about-section-title">Education</h2>
-      <div class="card education-card">
+      <aside class="profile-card" aria-label="Profile summary">
+        <img src="assets/images/Hadif_s_picture-removebg-preview.png" class="profile-img" alt="Muhammad Hadif formal portrait">
+        <div class="profile-body">
+          <h2>Muhammad Hadif</h2>
+          <p>Information Technology student who enjoys turning ideas into useful web and mobile applications.</p>
+          <div class="profile-meta">
+            <span>Universiti Utara Malaysia</span>
+            <span>Open to collaboration</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="container section split-section">
+    <div>
+      <p class="eyebrow">About Me</p>
+      <h2 class="section-title">Curious builder with a practical mindset.</h2>
+    </div>
+    <div class="text-panel">
+      <p>
+        Hi! I'm Hadif, an IT student who enjoys building clean and beautiful digital
+        experiences. I am interested in web development, Flutter, databases, and backend
+        tools that help solve real problems.
+      </p>
+      <p>
+        I am steadily improving through academic work, personal projects, and hands-on
+        exploration with Angular, PHP Laravel, Spring Boot, and MySQL.
+      </p>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-heading">
+      <p class="eyebrow">Skills</p>
+      <h2 class="section-title">Tools and technologies I work with</h2>
+    </div>
+
+    <div class="skills-grid">
+      <article class="info-card">
+        <h3>Frontend</h3>
+        <p>HTML, CSS, JavaScript, Angular, responsive layouts, and clean user interfaces.</p>
+      </article>
+      <article class="info-card">
+        <h3>Mobile</h3>
+        <p>Flutter fundamentals for building cross-platform mobile app experiences.</p>
+      </article>
+      <article class="info-card">
+        <h3>Backend</h3>
+        <p>PHP Laravel, Spring Boot basics, REST-style thinking, and application logic.</p>
+      </article>
+      <article class="info-card">
+        <h3>Database & Tools</h3>
+        <p>MySQL, Git, GitHub, version control workflow, and project organization.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="container section" id="projects">
+    <div class="section-heading">
+      <p class="eyebrow">Projects</p>
+      <h2 class="section-title">Selected project experience</h2>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card">
+
+        <img src="assets/images/FaraidA-Z-removebg.png" alt="Faraid A-Z Mobile Application" class="project-image">
+
+        <div class="project-topline">
+          <h3>Faraid A-Z Mobile Application</h3>
+          <span>Flutter / Dart</span>
+        </div>
+
+        <p>
+          A mobile application developed to help users learn, understand, and calculate
+          Islamic inheritance distribution in a clearer and more accessible way.
+        </p>
+
         <ul>
-          <li>SBP Integrasi Jempol</li>
-          <li>Foundation In Management Universiti Utara Malaysia</li>
-          <li>Bachelor of Science (Information Technology), UUM</li>
+          <li>Educational content about faraid concepts, heirs, and inheritance distribution</li>
+          <li>Faraid calculator to assist users in understanding inheritance shares</li>
+          <li>Clean mobile interface with learning materials and infographic-style content</li>
+        </ul>
+
+        <a class="project-btn" routerLink="/projects/faraid-a-z">
+          View Project Details
+        </a>
+      </article>
+
+      <article class="project-card">
+
+        <img src="assets/images/Confman2.png" alt="Conference Management System" class="project-image">
+
+
+        <div class="project-topline">
+          <h3>Conference Management System</h3>
+          <span>Angular / Spring Boot / MySQL</span>
+        </div>
+
+        <p>
+          A web-based system developed to manage conference activities such as paper
+          submission, review process, conference setup, scheduling, registration, and payment.
+        </p>
+
+        <ul>
+          <li>Supports paper submission, reviewer assignment, and review management</li>
+          <li>Includes conference setup, event tracks, session scheduling, and room management</li>
+          <li>Provides admin and reviewer modules with organized dashboard features</li>
+        </ul>
+
+        <a class="project-btn" routerLink="/projects/conference-management-system">
+          View Project Details
+        </a>
+      </article>
+
+      <article class="project-card">
+
+        <img src="assets/icons/cypress.svg" alt="Student Management System Testing" class="project-image">
+
+        <div class="project-topline">
+          <h3>Student Management System Testing</h3>
+          <span>Cypress / Allure Report</span>
+        </div>
+
+        <p>
+          Performed automated end-to-end testing on an open-source Student Management
+          System using Cypress to verify core functionalities and generate detailed test reports.
+        </p>
+
+        <ul>
+          <li>Developed automated test cases for key user workflows using Cypress</li>
+          <li>Validated application functionality through end-to-end testing scenarios</li>
+          <li>Generated comprehensive test execution reports using Allure Report</li>
+        </ul>
+
+        <a class="project-btn" routerLink="/projects/student-management-system-testing">
+          View Project Details
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="container section timeline-grid">
+    <div>
+      <p class="eyebrow">Experience</p>
+      <h2 class="section-title">Background</h2>
+      <div class="timeline-card">
+        <h3>Student Developer</h3>
+        <p class="muted">Academic projects and personal learning</p>
+        <p>
+          Built foundations in web development, mobile development, databases, and version
+          control through coursework and self-directed practice.
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <p class="eyebrow">Education</p>
+      <h2 class="section-title">Academic Path</h2>
+      <div class="timeline-card">
+        <ul class="education-list">
+          <li><strong>Universiti Utara Malaysia</strong><span>Bachelor of Science (Information Technology)</span></li>
+          <li><strong>Universiti Utara Malaysia</strong><span>Foundation in Management</span></li>
+          <li><strong>SBP Integrasi Jempol</strong><span>Secondary education</span></li>
         </ul>
       </div>
     </div>
-
-    <div class="card skills-card">
-      <h3>Skills</h3>
-      <ul>
-        <li>Web Development (HTML, CSS, JS, PHP, SPRINGBOOT)</li>
-        <li>Mobile Development (Flutter)</li>
-        <li>Database (MySQL)</li>
-        <li>Git & GitHub</li>
-      </ul>
-    </div>
-    </div>
   </section>
-</div>
-
+</main>
 
 <footer>
-  <p>© 2025 My Portfolio</p>
+  <p>Copyright 2026 Muhammad Hadif bin Nasarudin. Built with Angular.</p>
 </footer>
