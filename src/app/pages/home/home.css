@@ -23,8 +23,7 @@
   font-size: clamp(18px, 2.2vw, 22px);
 }
 
-.hero-actions,
-.quick-facts {
+.hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -32,16 +31,6 @@
 
 .hero-actions {
   margin: 32px 0 24px;
-}
-
-.quick-facts span {
-  padding: 8px 12px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: white;
-  color: var(--text-light);
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .profile-card,
@@ -311,15 +300,22 @@
   box-shadow: 0 10px 20px rgba(46, 49, 146, 0.25);
 }
 
-.project-image{
-    width:60%;
-    height:220px;
-    object-fit:cover;
-    border-radius:18px 18px 0 0;
-    display:block;
-    align-items:center;
+.project-image-wrapper {
+  width: 100%;
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 18px 18px 0 0;
+  overflow: hidden;
 }
 
-.project-content{
-    padding:1.4rem;
+.project-image {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
